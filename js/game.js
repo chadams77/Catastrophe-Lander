@@ -219,6 +219,7 @@ var collideLand = function ( x, y, r )
 var SHIP = null;
 var SSZ  = 10;
 var PNT  = [ 0, 0 ];
+var MAX_SCORE = 7;
 
 GAME.Update = function ( )
 {
@@ -239,7 +240,7 @@ GAME.Update = function ( )
 
     if (!LAND || (DCD !== null && DCD < 0.0))
     {
-        if (PNT[0] >= 10 || PNT[1] >= 10)
+        if (PNT[0] >= MAX_SCORE || PNT[1] >= MAX_SCORE)
         {
             var win = PNT[0] > PNT[1];
             ctx.save();
