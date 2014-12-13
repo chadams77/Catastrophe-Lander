@@ -1,4 +1,4 @@
-Catastrophe-Lander
-==================
+Installation
+============
 
-Game for the Catastrophe Jam (Volta, Halifax, NS, 2014)
+Copy index.html, img/, js/, sfx/, css/ to a web accessible folder and launch index.html from an HTML5 enabled browser
